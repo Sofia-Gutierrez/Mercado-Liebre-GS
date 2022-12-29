@@ -13,7 +13,7 @@ app.listen(port, () => {
 });
 
 app.get("/", (req, res) => {
-    res.sendFile(path.resolve(__dirname, "./index.html"));
+    res.sendFile(path.resolve(__dirname, "./views/index.html"));
 });
 
 app.get("/form", (req, res) => {
