@@ -528,15 +528,17 @@ section
     }
 
     .card:hover .product-detail-container {
-        height: 70px;
+        height: 80px;
     }
 
     .description {
         transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+        display: block;
         opacity: 0;
     }
 
     .card:hover .description {
+        display: block;
         opacity: 1;
     }
 
